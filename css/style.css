@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0,0,0,.5)
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  line-height: 50px;
+  font-size: 25px;
+  font-family: Franklin Gothic Medium;
+
+}
+
+.sect {
+ height: 100%;
+ background-color: aqua;
+ background-size: cover;;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+.subSection {
+  min-height: 50%;
+  background-color: black;
+}
+
+.subSection:before{
+    display: block;
+    content: "";
+    margin-top: -70px;
+    height: 70px;
+    visibility: hidden;
+}
+
+ .sectOne {
+   background-image: url("../images/food.jpg");
+
+ }
+
+ .sectTwo {
+   background-image: url("../images/cooking.jpg");
+ }
+
+ .sectThree {
+   background-image: url("../images/grocery.jpg");
+ }
+
+ .subSection p {
+   font-size: 50px;
+   color: #fff;
+   font-family: "Times New Roman" ;
+   text-align: center;
+ }
