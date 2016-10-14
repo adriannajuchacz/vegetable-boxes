@@ -23,7 +23,7 @@ nav a {
 
 }
 
-.sect {
+.image {
  height: 100%;
  background-color: aqua;
  background-size: cover;;
@@ -31,12 +31,12 @@ nav a {
  background-attachment: fixed;
 }
 
-.subSection {
+.section {
   min-height: 50%;
   background-color: black;
 }
 
-.subSection:before{
+.section:before{
     display: block;
     content: "";
     margin-top: -70px;
@@ -44,22 +44,44 @@ nav a {
     visibility: hidden;
 }
 
- .sectOne {
+ .imageOne {
    background-image: url("../images/food.jpg");
 
  }
 
- .sectTwo {
+ .imageTwo {
    background-image: url("../images/cooking.jpg");
  }
 
- .sectThree {
+ .imageThree {
    background-image: url("../images/grocery.jpg");
  }
 
- .subSection p {
+ .imageFour {
+   background-image: url("../images/foodie.jpg");
+ }
+
+ .imageFive {
+   background-image: url("../images/cooking.jpg");
+ }
+
+p {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Times New Roman" ;
+}
+
+ .section p {
    font-size: 50px;
    color: #fff;
    font-family: "Times New Roman" ;
    text-align: center;
  }
+
+.goLeft {
+  float: left;
+}
+
+.goRight {
+  float: right;
+}
