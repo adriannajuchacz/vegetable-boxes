@@ -1,5 +1,3 @@
-1) contactLeft i contactRight doesn't work how i want them to
-
 2) I want the "how it works" section  to be similar to :
 http://firma-sys.pl/
 https://www.palmettoorganics.com/wp-content/uploads/2012/10/How-It-Works-Infographic2.jpg
@@ -12,3 +10,12 @@ but it should have this blackboard style
 
 5)in "how it works" add dashed line arrows
 http://image.shutterstock.com/z/stock-vector-dash-line-arrows-hand-drawn-doodle-arrows-set-dot-line-arrows-259721843.jpg
+
+!!! 6) I couldn't push it to github, I used the "pages" branch, but it's not the same
+
+7) w section "how it works" i struggle to get the div extend to the size of all stuff inside of it. It somehow works with "table"
+
+8) figure out, how does it works with the "products", that it covers the whole inhalt
+
+CHANGES:
+1)  add a class in contact and then for all of the p's do the float:left thing.

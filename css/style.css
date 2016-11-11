@@ -26,7 +26,7 @@ nav a {
 .image {
  height: 100%;
  background-color: aqua;
- background-size: cover;;
+ background-size: cover;
  background-repeat: no-repeat;
  background-attachment: fixed;
 }
@@ -34,6 +34,10 @@ nav a {
 .section {
   min-height: 50%;
   background-color: black;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .section:before{
@@ -65,13 +69,33 @@ nav a {
    background-image: url("../images/cooking.jpg");
  }
 
+.step {
+  text-align: center;
+}
+.image_inside_step {
+ text-align: center;
+}
+
 p {
   font-size: 50px;
   color: #fff;
   font-family: "Times New Roman" ;
 }
 
+.row {
+  width: 100%;
+}
 
+.step {
+  width: 50%;
+  float: left;
+}
+
+.instruction h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Times New Roman" ;
+}
 .goLeft {
   float: left;
 }
