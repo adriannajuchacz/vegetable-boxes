@@ -40,13 +40,6 @@ nav a {
 
 }
 
-.section:before{
-    display: block;
-    content: "";
-    margin-top: -70px;
-    height: 70px;
-    visibility: hidden;
-}
 
  .imageOne {
    background-image: url("../images/food.jpg");
@@ -73,14 +66,10 @@ nav a {
   text-align: center;
 }
 .image_inside_step {
- text-align: center;
+ border: dashed 4px #c4c4c4 !important;
+ border-radius: 3%;
 }
 
-p {
-  font-size: 50px;
-  color: #fff;
-  font-family: "Times New Roman" ;
-}
 
 .row {
   width: 100%;
@@ -89,13 +78,28 @@ p {
 .step {
   width: 50%;
   float: left;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.instruction h1 {
+p {
   font-size: 50px;
   color: #fff;
-  font-family: "Times New Roman" ;
+  font-family: "severance_the_sequelmedium",Georgia,serif ;
 }
+
+.instruction p, h1{
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.instruction h1{
+  font-size: 28px;
+  color: #fff;
+  font-family: 'Architects Daughter', cursive;
+}
+
 .goLeft {
   float: left;
 }

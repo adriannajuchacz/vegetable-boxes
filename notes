@@ -17,5 +17,7 @@ http://image.shutterstock.com/z/stock-vector-dash-line-arrows-hand-drawn-doodle-
 
 8) figure out, how does it works with the "products", that it covers the whole inhalt
 
+9) add border to images in how-it-works
+
 CHANGES:
 1)  add a class in contact and then for all of the p's do the float:left thing.
