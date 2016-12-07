@@ -1,15 +1,7 @@
-2) I want the "how it works" section  to be similar to :
-http://firma-sys.pl/
-https://www.palmettoorganics.com/wp-content/uploads/2012/10/How-It-Works-Infographic2.jpg
-
-but it should have this blackboard style
 
 3) in the section "Our products" i would like to divide the page into categories (symbol/image + Name), after klicking on it, it should show a list of products of this category with its prices.
 
-4)"Order" button.
-
-5)in "how it works" add dashed line arrows
-http://image.shutterstock.com/z/stock-vector-dash-line-arrows-hand-drawn-doodle-arrows-set-dot-line-arrows-259721843.jpg
+4)"Order now" and the "Shopping cart" button.
 
 !!! 6) I couldn't push it to github, I used the "pages" branch, but it's not the same
 
@@ -17,7 +9,16 @@ http://image.shutterstock.com/z/stock-vector-dash-line-arrows-hand-drawn-doodle-
 
 8) figure out, how does it works with the "products", that it covers the whole inhalt
 
-9) add border to images in how-it-works
+9) make the 'home' part centered
+
+
 
 CHANGES:
 1)  add a class in contact and then for all of the p's do the float:left thing.
+2)add bootstraps stuff
+3) add more icons
+
+
+INSPIRATIONS:
+2) up to date festival: http://www.uptodate.pl/pl/
+3) found eyewear: https://foundeyewear.com/

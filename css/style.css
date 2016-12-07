@@ -6,6 +6,12 @@ html, body {
   height: 100%;
 }
 
+p {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Dosis', sans-serif ;
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -13,16 +19,33 @@ nav {
   background-color: rgba(0,0,0,.5)
 }
 
+#cart-pop-up {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: none;
+}
+
 nav a {
   text-decoration: none;
   color: #fff;
   margin-left: 30px;
   line-height: 50px;
-  font-size: 25px;
-  font-family: Franklin Gothic Medium;
-
+  font-size: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
+nav a:hover {
+  color: #c4c4c4;
+}
+
+.shopping_cart {
+  color: #fff;
+  font-size: 2em !important;
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.5em;
+}
 .image {
  height: 100%;
  background-color: aqua;
@@ -37,7 +60,7 @@ nav a {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  overflow: auto;
 }
 
 
@@ -62,6 +85,10 @@ nav a {
    background-image: url("../images/cooking.jpg");
  }
 
+#home {
+  text-align: center;
+  padding-top: 10%;
+}
 .step {
   text-align: center;
 }
@@ -82,22 +109,15 @@ nav a {
   margin-top: 50px;
 }
 
-p {
-  font-size: 50px;
-  color: #fff;
-  font-family: "severance_the_sequelmedium",Georgia,serif ;
-}
 
 .instruction p, h1{
-  font-size: 22px;
+  font-size: 30px;
   color: #fff;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .instruction h1{
-  font-size: 28px;
-  color: #fff;
-  font-family: 'Architects Daughter', cursive;
+  font-size: 35px;
 }
 
 .goLeft {
@@ -106,4 +126,12 @@ p {
 
 .goRight {
   float: left;
+}
+
+.shopping_button {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    margin: 20px;
 }
