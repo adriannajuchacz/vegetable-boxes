@@ -5,27 +5,19 @@
 html, body {
   height: 100%;
 }
-
+/*FONTS */
 p {
   font-size: 50px;
   color: #fff;
   font-family: 'Dosis', sans-serif ;
 }
-
+/*NAVBAR DETAILS*/
 nav {
   position: fixed;
   width: 100%;
   height: 70px;
-  background-color: rgba(0,0,0,.5)
+  background-color: rgba(0,0,0,.75)
 }
-
-#cart-pop-up {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
-  display: none;
-}
-
 nav a {
   text-decoration: none;
   color: #fff;
@@ -46,6 +38,15 @@ nav a:hover {
   margin-right: 1em;
   margin-top: 0.5em;
 }
+
+#cart-pop-up {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: none;
+}
+
+/*BASIC SECTIONS*/
 .image {
  height: 100%;
  background-color: aqua;
@@ -61,12 +62,13 @@ nav a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-
+/*IMAGES */
  .imageOne {
    background-image: url("../images/food.jpg");
-
  }
 
  .imageTwo {
@@ -84,11 +86,44 @@ nav a:hover {
  .imageFive {
    background-image: url("../images/cooking.jpg");
  }
-
+/*INDIVIDUAL FEATURES */
 #home {
   text-align: center;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
+/*PRODUCTS */
+.product_row{
+overflow: auto;
+margin: 20px;
+}
+.product_block{
+
+}
+.product{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border: dashed 4px #c4c4c4 !important;
+    border-radius: 3%;
+}
+.shopping_button {
+    text-align: center;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: dashed 4px #c4c4c4 !important;
+    border-radius: 3%;
+}
+.price{
+    margin: 10px;
+}
+/*PRODUCTS IMAGES*/
+.image_products {
+    height: 128px;
+    width: 128px;
+}
+/*HOW IT WORKS SECTIONING*/
 .step {
   text-align: center;
 }
@@ -96,12 +131,9 @@ nav a:hover {
  border: dashed 4px #c4c4c4 !important;
  border-radius: 3%;
 }
-
-
 .row {
   width: 100%;
 }
-
 .step {
   width: 50%;
   float: left;
@@ -109,29 +141,13 @@ nav a:hover {
   margin-top: 50px;
 }
 
-
-.instruction p, h1{
+.instruction h1, p{
   font-size: 30px;
   color: #fff;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
 .instruction h1{
-  font-size: 35px;
-}
-
-.goLeft {
-  float: left;
-}
-
-.goRight {
-  float: left;
-}
-
-.shopping_button {
-    width: 100px;
-    height: 100px;
-    background-color: orange;
-    display: flex;
-    margin: 20px;
+  font-size: 40px;
+  color: grey;
 }
