@@ -23,3 +23,27 @@ for (var i=0; i<shoppingButtons.length; i++){
         console.log(event.target.innerHTML);
     });
 }
+//contact icons
+var homeIcon = document.getElementById('home_icon');
+var homeText = document.getElementById('address');
+var phoneIcon = document.getElementById('phone_icon');
+var phoneText = document.getElementById('phone');
+var mailIcon = document.getElementById('mail_icon');
+var mailText = document.getElementById('mail');
+homeIcon.addEventListener("click", function(){
+    homeText.style.display = "block";
+    mailText.style.display = "none";
+    phoneText.style.display = "none";
+});
+
+mailIcon.addEventListener("click", function(){
+    homeText.style.display = "none";
+    mailText.style.display = "block";
+    phoneText.style.display = "none";
+});
+
+phoneIcon.addEventListener("click", function(){
+    homeText.style.display = "none";
+    mailText.style.display = "none";
+    phoneText.style.display = "block";
+});

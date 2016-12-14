@@ -25,25 +25,54 @@
     <a href="#about">About us</a>
     <a href="#contact">Contact</a>
     <i class="fa fa-shopping-cart shopping_cart" id="cart-icon" aria-hidden="true"></i>
-    <div id="cart-pop-up">
-      <p id="the_x">X</p>
+<!--POP-UP WINDOW-->
+    <div class="col-md-6 col-md-offset-3" id="cart-pop-up">
+        <div class="row">
+            <i class="fa fa-times col-md-1 col-md-offset-11" aria-hidden="true" id="the_x"></i>
+        </div>
+        <div class="row  text_center">
+            <p class="col-md-6 col-md-offset-3">Your shopping-list:</p>
+        </div>
+        <div class="row">
+            <div class="block col-md-6" id="block_to_pay">
+                <ul>
+                  <li><p>Carrots</p></li>
+                  <li><p>Apples</p></li>
+                  <li><p>Onions</p></li>
+                </ul>
+            </div>
+            <div class="block col-md-6">
+                <ul>
+                  <li><p>2.99$</p></li>
+                  <li><p>2.99$</p></li>
+                  <li><p>2.99$</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-offset-6">
+                <div class="col-md-8" id="to_pay"></div>
+                    <p class="col-md-12 col-md-offset-0">To pay: 8.97$</p>
+            </div>
+        </div>
     </div>
   </nav>
 <!--FIRST BACKGROUND IMAGE-->
   <div class="image imageOne"></div>
 <!--HOME SECTION-->
-  <div class="section" id="home">
+  <div class="section overflow" id="home">
     <div class="col-md-6 col-md-offset-3">
-      <p>Welcome to VeggiePack</p>
-      <p>Hope you like it.</p>
-      <p>Happy cooking!</p>
-      <p>Welcome to VeggiePack</p>
-      <p>Hope you like it.</p>
-      <p>Happy cooking!</p>
-      <p>Welcome to VeggiePack</p>
-      <p>Hope you like it.</p>
-      <p>Happy cooking!</p>
+        <p>Welcome to VeggiePack</p>
+        <p>Hope you like it.</p>
+        <p>Happy cooking!</p>
+        <p>Welcome to VeggiePack</p>
+        <p>Hope you like it.</p>
+        <p>Happy cooking!</p>
+        <p>Welcome to VeggiePack</p>
+        <p>Hope you like it.</p>
+        <p>Happy cooking!</p>
     </div>
+        <div></div>
 
   </div>
   <!--SECOND BACKGROUND IMAGE -->
@@ -182,7 +211,7 @@
 <!--FOURTH BACKGROUND IMAGE -->
   <div class="image imageFour"></div>
 <!--ABOUT SECTION -->
-<div class="section" id="about">
+<div class="section overflow" id="about">
     <div class="col-md-6 col-md-offset-3">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. ...Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
         </p>
@@ -191,39 +220,44 @@
 <!--FIFTH BACKGROUND IMAGE -->
   <div class="image imageFive"></div>
 <!--CONTACT SECTION -->
-  <div class="section" id="contact">
-    <table>
-      <tr>
-        <td class="col-md-3 col-md-offset-0">
-            <p>nasz adres:</p>
-        </td>
-        <td>
-            <div class="col-md-6 col-md-offset-3">
-                <p>ul. Podlesna 27A 73-110 Lipnik</p>
-            </div>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-md-3 col-md-offset-0">
-          <p>numer kontaktowy:</p>
-        </td>
-        <td>
-            <div class="col-md-6 col-md-offset-3">
-                <p>00 48 503 095 792</p>
-            </div>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-md-3 col-md-offset-0">
-          <p>email:</p>
-        </td>
-        <td>
-          <div class="col-md-6 col-md-offset-3">
-              <p>robju@autograf.pl</p>
+  <div class="section overflow" id="contact">
+      <div class="row">
+          <div class="block col-md-6">
+              <div class="row text_center">
+                  <p>Find us on:</p>
+              </div>
+              <div class="row">
+                  <a href="https://www.facebook.com/mniesmieszypl/?fref=ts">
+                    <i class="fa fa-facebook-square contact_icon col-md-1 col-md-offset-2" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://twitter.com/magda_gessler">
+                      <i class="fa fa-twitter-square contact_icon col-md-1 col-md-offset-1" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mary_la_la/">
+                      <i class="fa fa-instagram contact_icon col-md-1 col-md-offset-1" aria-hidden="true"></i>
+                  </a>
+              </div>
           </div>
-        </td>
-      </tr>
-    </table>
+          <div class="block col-md-6">
+              <div class="row text_center">
+                  <p>Contact us by:</p>
+              </div>
+              <div class="row">
+                  <i class="fa fa-home contact_icon col-md-1 col-md-offset-2" aria-hidden="true" id="home_icon"></i>
+                  <i class="fa fa-envelope contact_icon col-md-1 col-md-offset-1" aria-hidden="true" id="mail_icon"></i>
+                  <i class="fa fa-phone contact_icon col-md-1 col-md-offset-1" aria-hidden="true" id="phone_icon"></i>
+              </div>
+          </div>
+      </div>
+      <div class="row text_center contact_text" id="address">
+          <p class="col-md-4 col-md-offset-4">ul. Podlesna 27A 73-110 Lipnik</p>
+      </div>
+      <div class="row text_center contact_text" id="mail">
+          <p class="col-md-4 col-md-offset-4">robju@autograf.pl</p>
+      </div>
+      <div class="row text_center contact_text" id="phone">
+          <p class="col-md-4 col-md-offset-4">+48 503 095 792</p>
+      </div>
   </div>
   <script src="script.js"></script>
 </body>

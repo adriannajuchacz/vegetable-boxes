@@ -1,16 +1,4 @@
-
-3) in the section "Our products" i would like to divide the page into categories (symbol/image + Name), after klicking on it, it should show a list of products of this category with its prices.
-
-4)"Order now" and the "Shopping cart" button.
-
-7) w section "how it works" i struggle to get the div extend to the size of all stuff inside of it. It somehow works with "table"
-
-8) figure out, how does it works with the "products", that it covers the whole inhalt
-
-9) make the 'home' part centered
-
-
-
+1)in contact cannot get the icons centered because of minus margin of the "row"
 CHANGES:
 1)  add a class in contact and then for all of the p's do the float:left thing.
 2)add bootstraps stuff
