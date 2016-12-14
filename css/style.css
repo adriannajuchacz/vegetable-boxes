@@ -97,9 +97,6 @@ nav a:hover {
 overflow: auto;
 margin: 20px;
 }
-.product_block{
-
-}
 .product{
     text-align: center;
     display: block;
@@ -107,18 +104,9 @@ margin: 20px;
     border: dashed 4px #c4c4c4 !important;
     border-radius: 3%;
 }
-.shopping_button {
-    text-align: center;
-    display: block;
-    margin: 20px;
-    padding: 10px;
-    border: dashed 4px #c4c4c4 !important;
-    border-radius: 3%;
-}
 .price{
     margin: 10px;
 }
-/*PRODUCTS IMAGES*/
 .image_products {
     height: 128px;
     width: 128px;
