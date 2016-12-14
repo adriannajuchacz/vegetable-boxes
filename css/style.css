@@ -93,18 +93,20 @@ nav a:hover {
   padding-bottom: 10%;
 }
 /*PRODUCTS */
-.product_row{
+.row{
 overflow: auto;
 margin: 20px;
 }
-.product{
+.input_block{
     text-align: center;
     display: block;
     padding: 10px;
+}
+.temp{
     border: dashed 4px #c4c4c4 !important;
     border-radius: 3%;
 }
-.price{
+.middle_object{
     margin: 10px;
 }
 .image_products {
@@ -119,9 +121,7 @@ margin: 20px;
  border: dashed 4px #c4c4c4 !important;
  border-radius: 3%;
 }
-.row {
-  width: 100%;
-}
+
 .step {
   width: 50%;
   float: left;
