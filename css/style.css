@@ -125,7 +125,7 @@ margin: 20px;
     display: block;
     padding: 10px;
 }
-.temp{
+.step_border{
     border: dashed 4px #c4c4c4 !important;
     border-radius: 3%;
 }
@@ -181,4 +181,7 @@ margin: 20px;
 }
 #phone{
     display: none;
+}
+#tray{
+    float: left;
 }

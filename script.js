@@ -31,19 +31,33 @@ var phoneText = document.getElementById('phone');
 var mailIcon = document.getElementById('mail_icon');
 var mailText = document.getElementById('mail');
 homeIcon.addEventListener("click", function(){
-    homeText.style.display = "block";
-    mailText.style.display = "none";
-    phoneText.style.display = "none";
+    $(homeText).fadeIn(2000);
+    $(mailText).fadeOut(2000);
+    $(phoneText).fadeOut(2000);
 });
 
 mailIcon.addEventListener("click", function(){
-    homeText.style.display = "none";
-    mailText.style.display = "block";
-    phoneText.style.display = "none";
+    $(homeText).fadeOut(2000);
+    $(mailText).fadeIn(2000);
+    $(phoneText).fadeOut(2000);
 });
 
 phoneIcon.addEventListener("click", function(){
-    homeText.style.display = "none";
-    mailText.style.display = "none";
-    phoneText.style.display = "block";
+    $(homeText).fadeOut(2000);
+    $(mailText).fadeOut(2000);
+    $(phoneText).fadeIn(2000);
+});
+
+//TESTING
+var tray= document.getElementById('temp');
+tray.addEventListener("click", function(){
+    $(this).css("position", "relative");
+
+    $(this).animate(
+        {
+            right: 100,
+            opacity: 0.5,
+            width: 200
+        }, 2000, "easeInQuad", function(){alert("All done!");});
+
 });
